@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MediTracker</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_doctor_registration">DoctorRegistration</string>
+    <string name="title_activity_patient_registration">PatientRegistration</string>
+    <string name="title_activity_employee_registration">EmployeeRegistration</string>
+    <string name="title_activity_accountant_registration">AccountantRegistration</string>
+    <string name="title_activity_admin_home">AdminHome</string>
+    <string name="title_activity_doctor_home">DoctorHome</string>
+    <string name="title_activity_patient_home">PatientHome</string>
+    <string name="title_activity_accountant_home">AccountantHome</string>
+    <string name="title_activity_employee_home">EmployeeHome</string>
+    <string name="title_activity_add_appointment">AddAppointment</string>
+    <string name="title_activity_add_bill">AddBill</string>
+    <string name="title_activity_patient_update">PatientUpdate</string>
+
+</resources>

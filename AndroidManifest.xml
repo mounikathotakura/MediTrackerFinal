@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.meditracker"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:name="com.example.meditracker.GlobalClass"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.meditracker.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.meditracker.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.meditracker.Registration"
+            android:label="@string/title_activity_registration" >
+        </activity>
+        <activity
+            android:name="com.example.meditracker.DoctorRegistration"
+            android:label="@string/title_activity_doctor_registration" >
+        </activity>
+        <activity
+            android:name="com.example.meditracker.PatientRegistration"
+            android:label="@string/title_activity_patient_registration" >
+        </activity>
+        <activity
+            android:name="com.example.meditracker.EmployeeRegistration"
+            android:label="@string/title_activity_employee_registration" >
+        </activity>
+        <activity
+            android:name="com.example.meditracker.AccountantRegistration"
+            android:label="@string/title_activity_accountant_registration" >
+        </activity>
+        <activity
+            android:name="com.example.meditracker.AdminHome"
+            android:label="@string/title_activity_admin_home" >
+        </activity>
+        <activity
+            android:name="com.example.meditracker.DoctorHome"
+            android:label="@string/title_activity_doctor_home" >
+        </activity>
+        <activity
+            android:name="com.example.meditracker.PatientHome"
+            android:label="@string/title_activity_patient_home" >
+        </activity>
+        <activity
+            android:name="com.example.meditracker.AccountantHome"
+            android:label="@string/title_activity_accountant_home" >
+        </activity>
+        <activity
+            android:name="com.example.meditracker.EmployeeHome"
+            android:label="@string/title_activity_employee_home" >
+        </activity>
+        <activity
+            android:name="com.example.meditracker.AddAppointment"
+            android:label="@string/title_activity_add_appointment" >
+        </activity>
+        <activity
+            android:name="com.example.meditracker.AddBill"
+            android:label="@string/title_activity_add_bill" >
+        </activity>
+        <activity
+            android:name="com.example.meditracker.PatientUpdate"
+            android:label="@string/title_activity_patient_update" >
+        </activity>
+    </application>
+
+</manifest>
